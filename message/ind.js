@@ -23,7 +23,7 @@ exports.wrongFormat = (prefix) => {
 
 exports.rent = () => {
     return `*「 S E W A 」*
-Sebelum melakukan pembayaran, hubungi dahulu owner https://wa.me/6285755495437
+Sebelum melakukan pembayaran, hubungi dahulu owner https://wa.me/60102810046
     
 ┌──「 *ADD GROUP* 」
 ├ *1 Minggu:* Rp.5.000
@@ -36,11 +36,9 @@ Sebelum melakukan pembayaran, hubungi dahulu owner https://wa.me/6285755495437
     
 ┌──「 *P A Y M E N T* 」
 │
-├ *Dana:* 6285895618295
-├ *Gopay:* 6285895618295
-├ *Pulsa:* 6285895618295 (+5k)
+├ *Money:* 60102810046
 │
-└──「 *I C Z A* 」 
+└──「 *Aiman* 」 
     
 *NOTE:* Untuk Pulsa Akan Dikenakan Tambahan Rp.5.000`
 }
@@ -49,23 +47,20 @@ return `┌──「 *D O N A T E* 」
 │
 ├ Beri Semangat Owner!
 │
-├ *Dana:* 6285895618295
-├ *Gopay:* 6285895618295
+├ *Money :* 60102810046
 ├ *Pulsa:* 6285895618295 (+5k)
 │
-└──「 *I C Z A* 」 `
+└──「 *Aiman* 」 `
 
 }
 exports.menu = (prefix, salam, time) => {
-return `┌──「 *I C Z A* 」
+return `┌──「 *Aiman* 」
 ├ *Selamat ${salam}*
 ├ *${time}*
 │
 ├ *Note:* Bot Masih Dalam Program Beta.
 ├ Jika Bot Tidak Merespon Di Grup Silahkan Gunakan Di Private Chat!
-│
-├ *Iklan:* Menjual Otp Nomor Luar Negeri.Gunakan ${prefix}otp
-├ *Iklan:* Menjual RDP/VPS Murah.Gunakan ${prefix}rdp
+├ github:https://github.com/ai-man-123
 │
 ├「 ABOUT-MENU 」
 ├ ${prefix}owner
@@ -134,12 +129,9 @@ return `┌──「 *I C Z A* 」
 ├ ${prefix}gempa
 │
 ├「 Thanks To」
-├ Geni-Panas Team
-├ and all sup
+├ Allah 
 │
-│ *ᶜᵒᵈᵉ ʷⁱᵗʰ ˡᵒᵛᵉ ᶠʳᵒᵐ ˢⁱᵈᵒᵃʳʲᵒ ❤*
-│
-└──「 *I C H I* 」 `
+└──「 *Aiman* 」 `
 
 }
 
