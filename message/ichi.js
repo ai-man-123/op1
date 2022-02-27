@@ -217,8 +217,8 @@ if (isOwner){
 // Please Don't Change This T_T	    
 	    
 const menuBut = [
-    {index: 1, urlButton: {displayText: 'Source Code', url: 'https://github.com/ichizza/Chizza-md'}}, // Please Don't Change This T_T	 
-    {index: 2, callButton: {displayText: 'Owner', phoneNumber: '+6285755495437'}},
+    {index: 1, urlButton: {displayText: 'Source Code', url: 'https://github.com/ai-man-123/op1'}}, // Please Don't Change This T_T	 
+    {index: 2, callButton: {displayText: 'Owner', phoneNumber: '+60102810046'}},
     {index: 3, quickReplyButton: {displayText: 'MENU', id: prefix+'allmenu'}},
     {index: 4, quickReplyButton: {displayText: 'RULES', id: prefix+'rules'}},
 ]
@@ -237,11 +237,11 @@ break
 case prefix+"menu":
 case prefix+"help":
 
-await ichi.sendMessage(from, {caption: `*「ICHIZZA」*
+await ichi.sendMessage(from, {caption: `*「ZAbot」*
 Hai Kak ${pushname}.
-Saya Ichizza, Silahkan Pilih Pilihan Fitur Yang Ada.
+Saya zabot, Silahkan Pilih Pilihan Fitur Yang Ada.
 
-Terima Kasih Sudah Menjadi Teman Aku!`, location: {jpegThumbnail: fs.readFileSync("./assets/header.jpg")}, templateButtons: menuBut, footer: 'ᴮᵉᵗᵃ ᵂʰᵃᵗˢᵃᵖᵖ ᴮᵒᵗ ᴹᵘˡᵗⁱ ᴰᵉᵛⁱᶜᵉ ❤️‍🔥'}, )
+Terima Kasih Sudah Menjadi Teman Aku!`, location: {jpegThumbnail: fs.readFileSync("./assets/header.jpg")}, templateButtons: menuBut, footer: 'ᴮᵉᵗᵃ ᵂʰᵃᵗˢᵃᵖᵖ ᴮᵒᵗ ᴹᵘˡᵗⁱ ᴰᵉᵛⁱᶜᵉ by aiman❤️‍🔥'}, )
 
 break
 
@@ -265,13 +265,13 @@ case prefix+"owner":
         + 'VERSION:3.0\n' 
         + 'FN:I C H I\n' // full name
         + 'ORG:SenyaTeam;\n' // the organization of the contact
-        + 'TEL;type=CELL;type=VOICE;waid=6285755495437:+62 857 5549 5437\n' // WhatsApp ID + phone number
+        + 'TEL;type=CELL;type=VOICE;waid=60102810046:+60 10-281 0046\n' // WhatsApp ID + phone number
         + 'END:VCARD'
 ichi.sendMessage(
 from,
 { 
     contacts: { 
-        displayName: 'I C H I', 
+        displayName: 'Aiman', 
         contacts: [{ vcard }] 
     }
 }
@@ -792,7 +792,7 @@ cap += `├ *Followers:* ${getigstalk.graphql.user.edge_followed_by.count} \n`
 cap += `├ *Following:* ${getigstalk.graphql.user.edge_follow.count} \n`
 cap += `├ *Private:* ${getigstalk.graphql.user.is_private ? "Private" : "Not Private"} \n`
 cap += `├ *Bio:* ${getigstalk.graphql.user.biography ? getigstalk.graphql.user.biography : "No Bio"} \n│\n`
-cap += `└──「 *I C Z A* 」`
+cap += `└──「 *Aiman* 」`
 sendFileFromUrl(from, getigstalk.graphql.user.profile_pic_url_hd, cap)
 } catch (err) {
     textImg(ind.err(chats.split(" ")[0].split(prefix)[1], err))    
@@ -955,7 +955,7 @@ let sifugtgfrasdjkfhsdj = `┌──「 *YTMP3* 」
 ├ *Duration:* ${getmp3.duration}
 ├ *Size:* ${getmp3.medias[7].formattedSize}
 │
-└──「 *I C Z A* 」`
+└──「 *Aiman* 」`
 
 sendFileFromUrl(from, getmp3.thumbnail, sifugtgfrasdjkfhsdj, msg)
 sendFileFromUrl(from, getmp3.medias[7].url, sifugtgfrasdjkfhsdj, msg)
@@ -980,7 +980,7 @@ let asjdghfashgfashgf = `┌──「 *YTMP4* 」
 ├ *Duration:* ${getmp4.duration}
 ├ *Size:* ${getmp4.medias[1].formattedSize}
 │
-└──「 *I C Z A* 」`
+└──「 *Aiman* 」`
 sendFileFromUrl(from, getmp4.thumbnail, asjdghfashgfashgf, msg)
 sendFileFromUrl(from, getmp4.medias[1].url, asjdghfashgfashgf, msg)
 } catch (err) {
@@ -1002,7 +1002,7 @@ for (i of getyts.all) {
     afhasuyduytsduyt += `├ *Title:* ${i.title}\n`
     afhasuyduytsduyt += `├ *Url* ${i.url}\n│\n`
 }
-afhasuyduytsduyt += "└──「 *I C Z A* 」"
+afhasuyduytsduyt += "└──「 *Aiman* 」"
 sendFileFromUrl(from, getyts.all[0].image, afhasuyduytsduyt)
                     } catch (err) {
                         textImg(ind.err(chats.split(" ")[0].split(prefix)[1], err))    
@@ -1022,7 +1022,7 @@ let ashgasfgashfash = `┌──「 *PLAY* 」
 ├ *Duration:* ${getplay.duration}
 ├ *Size:* ${getplay.medias[7].formattedSize}
 │
-└──「 *I C Z A* 」`
+└──「 *Aiman* 」`
 
 sendFileFromUrl(from, getplay.thumbnail, ashgasfgashfash, msg)
 sendFileFromUrl(from, getplay.medias[7].url, ashgasfgashfash, msg)
@@ -1083,7 +1083,7 @@ try {
     const getig = await hxz.igdl(q)
 let gasdfghasfghasfy = `┌──「 *INSTAGRAM* 」
 ├ *Request By:* ${pushname}
-└──「 *I C Z A* 」`
+└──「 *Aiman* 」`
 
 for (i of getig.medias) {
 	if (i.type == 'video') {
@@ -1129,7 +1129,7 @@ let asbnfvashfgyjas = `┌──「 *G E M P A* 」
 ├ *Potention:* ${data.Infogempa.gempa.Potensi}
 ├ *Effect:* ${data.Infogempa.gempa.Dirasakan}
 │
-└──「 *I C Z A* 」 `
+└──「 *Aiman* 」 `
 
 sendFileFromUrl(from, "https://data.bmkg.go.id/DataMKG/TEWS/"+data.Infogempa.gempa.Shakemap, asbnfvashfgyjas)
 
